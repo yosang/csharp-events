@@ -2,8 +2,6 @@
 
 namespace Events
 {
-
-
     public class Button
     {
         // The EventHandler is a built-in delegate, we can use it directly
