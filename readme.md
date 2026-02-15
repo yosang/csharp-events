@@ -42,3 +42,14 @@ We will simulate this:
 
 # Examples
 We are providing examples using `custom delegates` and the built-in `EventHandler`.
+
+# Task
+We will implement:
+- Publisher - Diagnostic (using the built-in `EventHandler`).
+    - Event - TestCompleted.
+    - StartTest - Raises an event through `OnTestCompleted` passing `EventArgs e` as empty.
+    - OnTestCompleted - Protected virtual which takes `EventArgs e` and `Invokes` the delegate with `this` and `e`.
+- Subscriber - MyProgram
+    - Handles the subscription.
+    - EventHandler - Give it any name.
+
