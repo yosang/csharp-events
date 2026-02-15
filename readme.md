@@ -1,7 +1,7 @@
 # C# Events
 A simple demonstration of the `publisher - subscriber` pattern using C# events.
 
-An event is simply something that happens, a mouse click for example. This event can be broadcaster to any class that subscribes to it.
+An event is simply something that happens, a mouse click for example. This event can be broadcasted to any class that subscribes to it.
 
 This is useful for:
 - **UI** - Button clicks, key presses etc.
