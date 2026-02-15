@@ -12,6 +12,8 @@
         }
 
         // Handles the event
+        // Protected - Restricts access only to this class
+        // Virtual - Allows being overriden by any derived class of this class (polymorphism)
         protected virtual void OnTestCompleted(EventArgs e)
         {
             TestCompleted?.Invoke(this, e);
